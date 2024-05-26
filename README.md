@@ -1,14 +1,17 @@
 <div align="center">
 
 </br></br>
-  
+
+# TAKE IN MIND THAT THIS IS NOT MINE ALL CREDITS GOES TO aber1047
+# I JUST UPLOADED THE FILES HERE TO HOST THE SITE BECAUSE THE ORIGINAL URL DOESNT WORK
+
 <img align = "center" src = "source/imgs/gura_none_bg.gif" width = "320px">
 
 # 🦈 Spin gura (스핀 구라)
 
 </br>
 
-https://aber1047.github.io/Spin_gura/
+https://jakeblade2017.github.io/spinningura/
 
 </br>
 
