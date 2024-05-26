@@ -1,0 +1,150 @@
+@font-face
+{ 
+font-family : customfont;
+src: url(source/etc/BM_hanna.ttf);
+}
+
+body
+{
+font-family: customfont;
+}
+
+
+.body_t
+{
+background-color : #99bcdf;
+}
+
+.air_res
+{
+position : fixed;
+color : #635d67;
+font-weight : bold;
+white-space: nowrap;
+font-size : var(--text_size);
+top : 96%;
+z-index : 9999;
+padding: 1.5px;
+}
+
+.resistence_value_text
+{
+position : fixed;
+color : #635d67;
+font-weight : bold;
+white-space: nowrap;
+font-size : var(--text_size);
+top : 93%;
+z-index : 9999;
+padding: 1.5px;
+width : 40px;
+}
+
+.type_change
+{
+position : fixed;
+color : #635d67;
+font-weight : bold;
+white-space: nowrap;
+font-size : var(--text_size);
+top : 93.8%;
+left : var(--skin_change_pos);
+z-index : 9999;
+padding : 3px;
+transition : background-color 0.25s;
+padding-left : 15px;
+padding-right : 15px;
+}
+
+.github_link
+{
+position : fixed;
+color : #635d67;
+font-weight : bold;
+white-space: nowrap;
+font-size : var(--text_size);
+top : 96.5%;
+left : var(--skin_change_pos);
+z-index : 9999;
+padding : 3px;
+transition : background-color 0.25s;
+padding-left : 15px;
+padding-right : 15px;
+}
+
+.guide_text
+{
+position : absolute;
+color : #635d67;
+font-weight : bold;
+white-space: nowrap;
+font-size : var(--text_size);
+top : 73%;
+left : 0%;
+z-index : 9999;
+padding: 1.5px;
+transition : opacity 1s, left 1.5s;
+}
+
+.air_res_bar
+{
+-webkit-appearance : none;
+position : fixed;
+background : #dad4d8;
+font-weight : bold;
+white-space: nowrap;
+font-size : var(--text_size);
+top : 98%;
+z-index : 9999;
+padding : 2px;
+height : 3px;
+width : 150px;
+border-radius : 12px;
+transition : background-color 0.2s;
+}
+
+.air_res_bar:hover 
+{
+opacity: 1;
+}
+
+.air_res_bar::-webkit-slider-thumb 
+{
+-webkit-appearance: none;
+appearance: none;
+width: 12px;
+height: 12px;
+background: #635d67;
+cursor: pointer;
+border-radius : 12px;
+}
+
+.air_res_bar::-moz-range-thumb 
+{
+width: 12px;
+height: 12px;
+background: #635d67;
+cursor: pointer;
+border-radius : 12px;
+}
+
+.air_res_bar::-moz-range-thumb
+{
+-webkit-appearance: none;
+appearance: none;
+background : #635d67;
+width : 12px;
+height : 12px;
+cursor: pointer;
+}
+
+
+.loading_gif
+{
+left : var(--loading_gif_pos_x);
+top : var(--loading_gif_pos_y);
+width : var(--loading_gif_scale);
+box-shadow: none;
+outline: none;
+-webkit-tap-highlight-color: transparent;
+}
